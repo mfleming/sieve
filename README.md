@@ -28,6 +28,6 @@ the fact that SIEVE doesn't take a lock on the hit path.
 
 ## References
 
-- [https://cachemon.github.io/SIEVE-website/](Official website)
+- [Official SIEVE website](https://cachemon.github.io/SIEVE-website/)
 - [NSDI 24 Paper](https://cachemon.github.io/SIEVE-website/)
 - [Why aren't we SIEVE'ing?](https://brooker.co.za/blog/2023/12/15/sieve.html)
