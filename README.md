@@ -1,8 +1,10 @@
 # Sieve implementation in Python
 
 [SIEVE](https://cachemon.github.io/SIEVE-website/) is an eviction algorithm
-that is simpler and more efficient than FIFO. This project implements a cache
-using a Python decorator that uses SIEVE for eviction.
+that is simpler and more efficient than LRU. This project implements a cache
+using a Python decorator that uses SIEVE for eviction. The linked list
+implementation is taken directly from the Python standard library which makes
+it easy to compare Python's LRU and SIEVE.
 
 You can use a SIEVE-backed cache in your code with the `@sieve_cache`
 decorator.
